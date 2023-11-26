@@ -98,7 +98,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'hrmsdb',
-        'USER': 'pos5gres',
+        'USER': 'postgres',
         'PASSWORD': 'adminpg',
         'HOST': '127.0.0.1',
 #        'PORT': '7371',
