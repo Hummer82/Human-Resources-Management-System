@@ -97,9 +97,9 @@ WSGI_APPLICATION = "hrm_app.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'verceldb',
-        'USER': 'default',
-        'PASSWORD': '`V6uLS5PkyWXf`',
+        'NAME': 'hrmsdb',
+        'USER': 'pos5gres',
+        'PASSWORD': 'adminpg',
         'HOST': '127.0.0.1',
 #        'PORT': '7371',
     }
