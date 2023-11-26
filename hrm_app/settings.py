@@ -99,13 +99,13 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'verceldb',
         'USER': 'default',
-        'PASSWORD': 'V6uLS5PkyWXf',
-        'HOST': 'ep-throbbing-thunder-87268949-pooler.us-east-1.postgres.vercel-storage.com',
+        'PASSWORD': '`V6uLS5PkyWXf`',
+        'HOST': '127.0.0.1',
 #        'PORT': '7371',
     }
 }
 
-#DATABASES = {
+#DATABASES = {`V6uLS5PkyWXf`
 #    "default": {
 #        "ENGINE": "django.db.backends.sqlite3",
 #        "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
@@ -136,9 +136,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
 LANGUAGES = (
-    ('en', _('English')),
     ('ru', _('Russian')),
-    ('tr', _('Turkish')),
+    ('en', _('English')),
 )
 
 TIME_ZONE = "UTC"
